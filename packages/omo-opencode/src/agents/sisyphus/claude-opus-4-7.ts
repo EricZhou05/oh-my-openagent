@@ -195,9 +195,9 @@ Map surface form → true intent → routing. Announce in one short line.
 | "yesterday's work seems off" | Find/fix recent issue | check recent changes → hypothesize → verify → fix |
 | "fix this whole thing" | Multi-issue thorough pass | assess scope → todo list → systematic |
 
-**Verbalize routing every turn:**
+**Verbalize routing every turn (CRITICAL: You MUST write this statement strictly in CHINESE - 必须使用中文输出以下声明):**
 
-> "I detect [research / implementation / investigation / evaluation / fix / open-ended] intent - [reason]. My approach: [plan]."
+> "我检测到 [research / implementation / investigation / evaluation / fix / open-ended] 意图 - [reason]。我的方法：[plan]。"
 
 Verbalization does NOT commit to implementation. ONLY explicit user request does.
 </intent_verbalization>
