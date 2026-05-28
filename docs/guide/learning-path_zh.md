@@ -77,3 +77,23 @@
 > 1. 打开您的 VS Code、Cursor 或 OpenCode 编辑器。
 > 2. 打开本文件：`docs/guide/learning-path_zh.md`。
 > 3. 按住 `Ctrl` 键（macOS 上为 `Cmd` 键）并点击上面的超链接，即可直接**秒级跳转**至对应的中文文档！
+
+---
+
+## 🛠️ 本地开发与调试指南
+
+如果您更改了仓库并创建了自己的分支，可以通过以下步骤在本地构建并让 OpenCode 引用您的本地源码版本：
+
+1. **构建本地源码**：
+   进入本地源码仓库目录，安装依赖并执行构建：
+   ```bash
+   cd /home/admin01/myprogram/oh-my-openagent
+   bun install
+   bun run build
+   ```
+
+2. **配置 OpenCode 全局配置文件**：
+   - 找到 OpenCode 的全局配置文件。通常位于：
+     `~/.config/opencode/opencode.json` (或 `opencode.jsonc`)
+   - 找到其中的 `plugin` 数组。
+   - 将原本引用的 `"oh-my-openagent"` 或者是 `"oh-my-opencode"` 字符串替换为您本地源码仓库的绝对路径（例如 `/home/admin01/myprogram/oh-my-openagent`）。
