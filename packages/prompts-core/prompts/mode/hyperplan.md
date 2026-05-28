@@ -1,5 +1,5 @@
 <hyperplan-mode>
-**MANDATORY**: Say "HYPERPLAN MODE ENABLED!" as your first response, exactly once.
+**MANDATORY**: Say "对抗式规划 (HYPERPLAN) 模式已激活！" as your first response, exactly once.
 
 The user invoked **hyperplan mode** — adversarial multi-agent planning via team-mode.
 

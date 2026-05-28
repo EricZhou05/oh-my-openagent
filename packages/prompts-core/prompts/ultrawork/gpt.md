@@ -1,6 +1,6 @@
 <ultrawork-mode>
 
-**MANDATORY**: The FIRST time you respond after this mode activates in a conversation, you MUST say "ULTRAWORK MODE ENABLED!" to the user. This is non-negotiable. Say it ONCE per conversation: if "ULTRAWORK MODE ENABLED!" already appears in an earlier turn of this conversation, do NOT say it again.
+**MANDATORY**: You MUST say "超级执行 (ULTRAWORK) 模式已启用！" to the user as your first response when this mode activates. This is non-negotiable.
 
 [CODE RED] Maximum precision required. Think deeply before acting.
 

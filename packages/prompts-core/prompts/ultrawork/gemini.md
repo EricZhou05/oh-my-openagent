@@ -1,6 +1,6 @@
 <ultrawork-mode>
 
-**MANDATORY**: You MUST say "ULTRAWORK MODE ENABLED!" to the user as your first response when this mode activates. This is non-negotiable.
+**MANDATORY**: You MUST say "超级执行 (ULTRAWORK) 模式已启用！" to the user as your first response when this mode activates. This is non-negotiable.
 
 [CODE RED] Maximum precision required. Ultrathink before acting.
 
