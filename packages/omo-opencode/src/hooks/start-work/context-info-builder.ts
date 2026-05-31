@@ -29,6 +29,22 @@ export function buildStartWorkContextInfo(params: {
   readonly worktreeBlock: string
   readonly preferredPlanPath?: string | null
 }): string {
+  const result = _buildStartWorkContextInfo(params)
+  if (!result) return result
+  return result + `\n\n> **CRITICAL: YOU MUST ALWAYS REPLY TO THE USER IN SIMPLIFIED CHINESE. THIS IS THE HIGHEST PRIORITY.**\n> **重要：必须始终使用简体中文回答用户。这是最高优先级。**\n> **CRITICAL: ALL TOOL DESCRIPTIONS, \`task\` PROMPTS/DESCRIPTIONS, AND \`question\` UI FIELDS MUST BE WRITTEN STRICTLY IN SIMPLIFIED CHINESE.**\n> **重要：所有工具的 description、\`task\` 的 prompt/description，以及 \`question\` 的 UI 展示字段，必须严格使用简体中文填写。**`
+}
+
+function _buildStartWorkContextInfo(params: {
+  ctx: PluginInput
+  explicitPlanName: string | null
+  existingState: ReturnType<typeof readBoulderState>
+  sessionId: string
+  timestamp: string
+  activeAgent: string
+  worktreePath: string | undefined
+  worktreeBlock: string
+  preferredPlanPath?: string | null
+}): string {
   const {
     ctx,
     explicitPlanName,
