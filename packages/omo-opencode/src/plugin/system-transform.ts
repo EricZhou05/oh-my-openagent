@@ -7,10 +7,10 @@ import {
 const ULTRAWORK_MODE_TAG = "<ultrawork-mode>"
 const CHINESE_FORCE_TAG = ""
 const CHINESE_FORCE_RULE = `
-> **CRITICAL: YOU MUST ALWAYS REPLY TO THE USER IN CHINESE. THIS IS THE HIGHEST PRIORITY.**
-> **重要：必须始终使用中文回答用户。这是最高优先级。**
-> **CRITICAL: ALL tool calls MUST have their descriptions written strictly in Chinese.**
-> **重要：必须使用中文来填写所有工具调用的描述字段。**
+> **CRITICAL: YOU MUST ALWAYS REPLY TO THE USER IN SIMPLIFIED CHINESE. THIS IS THE HIGHEST PRIORITY.**
+> **重要：必须始终使用简体中文回答用户。这是最高优先级。**
+> **CRITICAL: ALL TOOL DESCRIPTIONS, \`task\` PROMPTS/DESCRIPTIONS, AND \`question\` UI FIELDS MUST BE WRITTEN STRICTLY IN SIMPLIFIED CHINESE.**
+> **重要：所有工具的 description、\`task\` 的 prompt/description，以及 \`question\` 的 UI 展示字段，必须严格使用简体中文填写。**
 `
 
 export function createSystemTransformHandler(

@@ -14,12 +14,12 @@ The upstream OpenCode \`todowrite\` schema expects each todo item to include:
 
 Each todo title MUST encode four elements: WHERE, WHY, HOW, and EXPECTED RESULT.
 
-Format: "[WHERE] [HOW] to [WHY] - expect [RESULT]"
+Format: "[受影响文件/位置] [如何修改] 以 [达到什么目的] - 期望 [结果]"
 
 GOOD:
-- "src/utils/validation.ts: Add validateEmail() for input sanitization - returns boolean"
-- "UserService.create(): Call validateEmail() before DB insert - rejects invalid emails with 400"
-- "validation.test.ts: Add test for missing @ sign - expect validateEmail('foo') to return false"
+- "src/utils/validation.ts: 添加 validateEmail() 以处理输入清洗 - 期望返回 boolean"
+- "UserService.create(): 在 DB 插入前调用 validateEmail() 以作校验 - 期望拒绝非法邮箱并返回 400"
+- "validation.test.ts: 针对缺失 @ 符号添加测试 以覆盖边缘情况 - 期望 validateEmail('foo') 返回 false"
 
 BAD:
 - "Implement email validation" (where? how? what result?)
