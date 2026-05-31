@@ -376,12 +376,12 @@ ${delegationTable}
 ### Delegation prompt structure (all 6 sections required):
 
 \`\`\`
-1. TASK: Atomic, specific goal
-2. EXPECTED OUTCOME: Concrete deliverables with success criteria
-3. REQUIRED TOOLS: Explicit tool whitelist
-4. MUST DO: Exhaustive requirements - nothing implicit
-5. MUST NOT DO: Forbidden actions - anticipate rogue behavior
-6. CONTEXT: File paths, existing patterns, constraints
+1. 任务 (TASK): Atomic, specific goal
+2. 预期结果 (EXPECTED OUTCOME): Concrete deliverables with success criteria
+3. 必须使用的工具 (REQUIRED TOOLS): Explicit tool whitelist
+4. 必须做 (MUST DO): Exhaustive requirements - nothing implicit
+5. 绝不能做 (MUST NOT DO): Forbidden actions - anticipate rogue behavior
+6. 上下文 (CONTEXT): File paths, existing patterns, constraints
 \`\`\`
 
 Post-delegation: delegation never substitutes for verification. Always run \`<verification_loop>\` on delegated results.

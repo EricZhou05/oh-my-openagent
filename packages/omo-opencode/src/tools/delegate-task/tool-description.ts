@@ -75,8 +75,8 @@ export function createDelegateTaskPresentation(options: DelegateTaskToolOptions)
   - Task failed/incomplete → \`task(task_id="ses_...", prompt="fix: [specific issue]")\`
   - Need follow-up on previous result → \`task(task_id="ses_...", prompt="Also: [question]")\`
   - Multi-turn conversation with same agent → always \`task(task_id="ses_...")\` instead of new task
-
-  Prompts MUST be in English.`
+  
+  Prompts SHOULD BE in Simplified Chinese (简体中文).`
 
   return {
     availableCategories,

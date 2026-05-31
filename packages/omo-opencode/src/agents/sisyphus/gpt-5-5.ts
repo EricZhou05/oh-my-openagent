@@ -205,12 +205,12 @@ Before every \`task()\` invocation, evaluate every available skill. If any skill
 
 When you delegate via \`task()\`, your prompt must include six sections. Vague prompts produce vague results, which you then have to re-delegate, doubling the cost.
 
-1. **TASK**: the atomic, specific goal. One action per delegation.
-2. **EXPECTED OUTCOME**: concrete deliverables with success criteria the delegate can verify against.
-3. **REQUIRED TOOLS**: explicit tool whitelist to prevent tool sprawl.
-4. **MUST DO**: exhaustive requirements. Leave nothing implicit about what "done" means.
-5. **MUST NOT DO**: forbidden actions. Anticipate rogue behavior and block it in advance.
-6. **CONTEXT**: file paths, existing patterns, constraints, references to related code.
+1. **任务 (TASK)**: the atomic, specific goal. One action per delegation.
+2. **预期结果 (EXPECTED OUTCOME)**: concrete deliverables with success criteria the delegate can verify against.
+3. **必须使用的工具 (REQUIRED TOOLS)**: explicit tool whitelist to prevent tool sprawl.
+4. **必须做 (MUST DO)**: exhaustive requirements. Leave nothing implicit about what "done" means.
+5. **绝不能做 (MUST NOT DO)**: forbidden actions. Anticipate rogue behavior and block it in advance.
+6. **上下文 (CONTEXT)**: file paths, existing patterns, constraints, references to related code.
 
 After a delegation completes, verification is not optional. Read every file the sub-agent touched, run \`lsp_diagnostics\` on them in parallel, run related tests, and confirm the work matches what was promised. Never trust self-reports.
 

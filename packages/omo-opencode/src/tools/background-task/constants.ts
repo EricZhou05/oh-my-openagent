@@ -1,6 +1,6 @@
 export const BACKGROUND_TASK_DESCRIPTION = `Run agent task in background. Returns a background task ID (\`bg_...\`) immediately; notifies on completion.
 
-Use \`background_output\` to get results. Prompts MUST be in English.`
+Use \`background_output\` to get results. Prompts SHOULD BE in Simplified Chinese (简体中文).`
 
 export const BACKGROUND_OUTPUT_DESCRIPTION = `Get output from background task. Use full_session=true to fetch session messages with filters. System notifies on completion, so block=true rarely needed. - Timeout values are in milliseconds (ms), NOT seconds.
 

@@ -303,12 +303,12 @@ ${delegationTable}
 
 <delegation_prompt>
 Every delegation prompt needs these 6 sections:
-1. TASK: atomic goal
-2. EXPECTED OUTCOME: deliverables + success criteria
-3. REQUIRED TOOLS: explicit whitelist
-4. MUST DO: exhaustive requirements - leave nothing implicit
-5. MUST NOT DO: forbidden actions - anticipate rogue behavior
-6. CONTEXT: file paths, existing patterns, constraints
+1. 任务 (TASK): atomic goal
+2. 预期结果 (EXPECTED OUTCOME): deliverables + success criteria
+3. 必须使用的工具 (REQUIRED TOOLS): explicit whitelist
+4. 必须做 (MUST DO): exhaustive requirements - leave nothing implicit
+5. 绝不能做 (MUST NOT DO): forbidden actions - anticipate rogue behavior
+6. 上下文 (CONTEXT): file paths, existing patterns, constraints
 </delegation_prompt>
 
 After delegation, verify by reading every file the subagent touched. Check: works as expected? follows codebase pattern? Do not trust self-reports.

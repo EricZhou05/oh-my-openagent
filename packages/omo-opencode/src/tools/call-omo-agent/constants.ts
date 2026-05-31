@@ -10,4 +10,4 @@ Allowed agents:
 
 Other built-in agents, custom agents, and task categories are intentionally not supported by this tool.
 
-Pass \`session_id=<id>\` to continue previous agent with full context. Nested subagent depth is tracked automatically and blocked past the configured limit. Prompts MUST be in English. Use \`background_output\` for async results.`
+Pass \`session_id=<id>\` to continue previous agent with full context. Nested subagent depth is tracked automatically and blocked past the configured limit. Prompts SHOULD BE in Simplified Chinese (简体中文). Use \`background_output\` for async results.`

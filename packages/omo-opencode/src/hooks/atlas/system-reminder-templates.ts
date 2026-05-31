@@ -199,7 +199,7 @@ task(
   category="quick",
   load_skills=[],
   run_in_background=false,
-  prompt="[6 sections: TASK / EXPECTED OUTCOME / REQUIRED TOOLS / MUST DO / MUST NOT DO / CONTEXT]"
+  prompt="[6 sections: 任务 (TASK) / 预期结果 (EXPECTED OUTCOME) / 必须使用的工具 (REQUIRED TOOLS) / 必须做 (MUST DO) / 绝不能做 (MUST NOT DO) / 上下文 (CONTEXT)]"
 )
 \`\`\`
 

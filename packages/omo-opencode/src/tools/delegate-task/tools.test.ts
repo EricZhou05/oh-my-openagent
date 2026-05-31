@@ -3688,8 +3688,8 @@ describe("sisyphus-task", () => {
 
       // then
       expect(result).toContain(prompt)
-      expect(result).toContain("Answer in English.")
-      expect(result).toContain("Write the plan in English.")
+      expect(result).toContain("Answer in Simplified Chinese (简体中文).")
+      expect(result).toContain("Write the plan in Simplified Chinese (简体中文).")
       expect(result).toContain("Plan well for ultrawork execution.")
       expect(result).toContain("Use TDD-oriented planning.")
       expect(result).toContain("Include a clear atomic commit strategy.")
@@ -3717,8 +3717,8 @@ describe("sisyphus-task", () => {
 
       // then
       expect(result).toContain(prompt)
-      expect(result).toContain("Answer in English.")
-      expect(result).toContain("Write the plan in English.")
+      expect(result).toContain("Answer in Simplified Chinese (简体中文).")
+      expect(result).toContain("Write the plan in Simplified Chinese (简体中文).")
       expect(result).toContain("Plan well for ultrawork execution.")
       expect(result).toContain("Include a clear atomic commit strategy.")
       expect(result).not.toContain("Use TDD-oriented planning.")

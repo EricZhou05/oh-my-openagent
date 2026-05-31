@@ -7,8 +7,8 @@ const FREE_OR_LOCAL_PROMPT_TOKEN_LIMIT = 24000
 const PLAN_AGENT_PROMPT_BASE = `
 
 Additional requirements for this planning request:
-- Answer in English.
-- Write the plan in English.
+- Answer in Simplified Chinese (简体中文).
+- Write the plan in Simplified Chinese (简体中文).
 - Plan well for ultrawork execution.
 - Include a clear atomic commit strategy.`
 
